@@ -18,6 +18,7 @@
 		3FEBA1C8184B84E8009ADCA0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEBA1A7184B84E8009ADCA0 /* Cocoa.framework */; };
 		3FEBA1D0184B84E8009ADCA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FEBA1CE184B84E8009ADCA0 /* InfoPlist.strings */; };
 		3FEBA1D2184B84E8009ADCA0 /* LocalGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBA1D1184B84E8009ADCA0 /* LocalGitTests.m */; };
+		3FEBA1DD184B85FA009ADCA0 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEBA1DC184B85FA009ADCA0 /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		3FEBA1CD184B84E8009ADCA0 /* LocalGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalGitTests-Info.plist"; sourceTree = "<group>"; };
 		3FEBA1CF184B84E8009ADCA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FEBA1D1184B84E8009ADCA0 /* LocalGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalGitTests.m; sourceTree = "<group>"; };
+		3FEBA1DB184B85FA009ADCA0 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		3FEBA1DC184B85FA009ADCA0 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 		3FEBA19B184B84E8009ADCA0 = {
 			isa = PBXGroup;
 			children = (
+				3FEBA1DB184B85FA009ADCA0 /* MyClass.h */,
+				3FEBA1DC184B85FA009ADCA0 /* MyClass.m */,
 				3FEBA1AD184B84E8009ADCA0 /* LocalGit */,
 				3FEBA1CB184B84E8009ADCA0 /* LocalGitTests */,
 				3FEBA1A6184B84E8009ADCA0 /* Frameworks */,
@@ -252,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEBA1DD184B85FA009ADCA0 /* MyClass.m in Sources */,
 				3FEBA1BB184B84E8009ADCA0 /* AppDelegate.m in Sources */,
 				3FEBA1B4184B84E8009ADCA0 /* main.m in Sources */,
 			);
