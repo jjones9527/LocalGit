@@ -14,6 +14,7 @@
 {
     // Insert code here to initialize your application
     // This comment added to demonstrate edits in the Version Editor
+    // This is another comment
 }
 
 @end
